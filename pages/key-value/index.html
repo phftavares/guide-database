@@ -362,6 +362,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Key-Value
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -371,6 +382,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vantagens-e-desvantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vantagens e Desvantagens
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vantagens e Desvantagens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vantagens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desvantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desvantagens
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referencias
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -530,6 +611,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vantagens-e-desvantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vantagens e Desvantagens
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vantagens e Desvantagens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vantagens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desvantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desvantagens
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referencias
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -544,6 +684,38 @@
 
 
 <h1 id="key-value">Key-Value</h1>
+<p>Em termos simples, um banco de dados key-value é um tipo de banco de dados NoSQL que armazena dados como pares de chave e valor. Cada entrada no banco de dados consiste em uma chave única e o valor associado a essa chave. A chave é usada como um identificador único para recuperar o valor correspondente.</p>
+<h2 id="vantagens-e-desvantagens">Vantagens e Desvantagens</h2>
+<h3 id="vantagens">Vantagens</h3>
+<ul>
+<li>Simplicidade</li>
+<li>Desempenho</li>
+<li>Escalabilidade Horizontal</li>
+<li>Flexibilidade de Esquema</li>
+<li>Baixa Latência</li>
+</ul>
+<h3 id="desvantagens">Desvantagens</h3>
+<ul>
+<li>Limitações de Consulta</li>
+<li>Modelo de Dados Limitado</li>
+<li>Consistência Limitada</li>
+<li>Escalabilidade Vertical Limitada</li>
+<li>Gerenciamento de Concorrência</li>
+</ul>
+<h2 id="casos-de-uso">Casos de uso</h2>
+<ul>
+<li>Armazenamento de Sessões de Usuário: Os bancos de dados chave-valor são frequentemente usados para armazenar informações de sessão de usuário em aplicativos da web. Isso inclui dados temporários, como tokens de autenticação, preferências do usuário e estado da sessão.</li>
+<li>Caching de Dados: Os bancos de dados chave-valor são ideais para caching de dados devido ao seu rápido acesso por chave. Eles são comumente usados para armazenar em cache consultas de banco de dados frequentes, resultados de computações complexas e conteúdo estático para reduzir a latência e aliviar a carga em sistemas de armazenamento principal.</li>
+<li>Gerenciamento de Metadados: Em sistemas distribuídos e aplicativos de grande escala, os bancos de dados chave-valor são usados para armazenar metadados, como configurações de sistema, informações de configuração e registros de transações. Isso permite um acesso eficiente e rápido a esses metadados, essenciais para o funcionamento do sistema.</li>
+<li>Armazenamento de Configurações: Os bancos de dados chave-valor são frequentemente usados para armazenar configurações dinâmicas de aplicativos, como configurações de personalização, configurações de ambiente e configurações de sistema. Isso permite que as configurações sejam facilmente atualizadas e acessadas por diferentes partes do aplicativo.</li>
+<li>Gestão de Sessões de Jogo: Em aplicativos de jogos multiplayer e em tempo real, os bancos de dados chave-valor são usados para gerenciar o estado do jogo e as sessões de jogador. Eles permitem armazenar e acessar rapidamente informações sobre jogadores, partidas em andamento e estatísticas do jogo.</li>
+<li>Armazenamento de Dados de Sensor e IoT: Os bancos de dados chave-valor são adequados para armazenar e processar grandes volumes de dados de sensores e dispositivos IoT (Internet das Coisas). Eles permitem armazenar e recuperar dados de forma eficiente, além de escalarem horizontalmente para lidar com grandes cargas de dados.</li>
+</ul>
+<h2 id="referencias">Referencias</h2>
+<ul>
+<li>Werner Vogels e Giuseppe DeCandia, "Dynamo: Amazon's Highly Available Key-value Store"</li>
+<li>Martin Kleppmann, "Designing Data-Intensive Applications"</li>
+</ul>
 
 
 
